@@ -140,7 +140,7 @@ export const db = {
       data: Omit<Project, 'id' | 'createdAt' | 'updatedAt'> 
     }): Promise<Project> => {
       const id = generateId()
-      const now = new Date()
+      const now = new Date().toISOString()
       const teamJson = JSON.stringify(options.data.team || [])
       
       const result = await sql`
@@ -165,7 +165,7 @@ export const db = {
       where: { id: string }
       data: Partial<Omit<Project, 'id' | 'createdAt'>> 
     }): Promise<Project | null> => {
-      const now = new Date()
+      const now = new Date().toISOString()
       const updates: string[] = ['updated_at = $1']
       const values: unknown[] = [now]
       let paramIndex = 2
