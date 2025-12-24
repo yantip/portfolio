@@ -4,6 +4,8 @@ import VideoEmbed from '@/components/VideoEmbed'
 import ImageGallery from '@/components/ImageGallery'
 import TeamSection from '@/components/TeamSection'
 
+// Use dynamic rendering - pages are generated on-demand
+export const dynamic = 'force-dynamic'
 export const revalidate = 60
 
 interface ProjectPageProps {
@@ -11,16 +13,19 @@ interface ProjectPageProps {
 }
 
 async function getProject(slug: string) {
-  return await db.projects.findFirst({
-    where: { slug, published: true },
-  })
+  try {
+    return await db.projects.findFirst({
+      where: { slug, published: true },
+    })
+  } catch (error) {
+    console.error('Failed to fetch project:', error)
+    return null
+  }
 }
 
+// Return empty array - pages will be generated on-demand
 export async function generateStaticParams() {
-  const projects = await db.projects.findMany({
-    where: { published: true },
-  })
-  return projects.map((project) => ({ slug: project.slug }))
+  return []
 }
 
 export async function generateMetadata({ params }: ProjectPageProps) {

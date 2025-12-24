@@ -1,14 +1,21 @@
 import { db } from '@/lib/db'
 import ProjectGrid from '@/components/ProjectGrid'
 
+// Use dynamic rendering
+export const dynamic = 'force-dynamic'
 export const revalidate = 60
 
 async function getProjects() {
-  const projects = await db.projects.findMany({
-    where: { published: true },
-    orderBy: { order: 'asc' },
-  })
-  return projects
+  try {
+    const projects = await db.projects.findMany({
+      where: { published: true },
+      orderBy: { order: 'asc' },
+    })
+    return projects
+  } catch (error) {
+    console.error('Failed to fetch projects:', error)
+    return []
+  }
 }
 
 export default async function HomePage() {
@@ -32,7 +39,13 @@ export default async function HomePage() {
 
       {/* Projects Grid */}
       <section className="pb-24">
-        <ProjectGrid projects={projects} />
+        {projects.length > 0 ? (
+          <ProjectGrid projects={projects} />
+        ) : (
+          <p className="text-neutral-500 text-center py-12">
+            No projects yet. Add some from the admin panel.
+          </p>
+        )}
       </section>
     </div>
   )
