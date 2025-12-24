@@ -1,0 +1,341 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "slug": "brand-identity-google",
+      "title": "Google Brand Identity",
+      "client": "Google",
+      "description": "A comprehensive brand identity project for Google, exploring new visual directions and motion design systems.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1/samples/ecommerce/accessories-bag",
+      "image1": "https://res.cloudinary.com/demo/image/upload/v1/samples/landscapes/nature-mountains",
+      "image2": "https://res.cloudinary.com/demo/image/upload/v1/samples/landscapes/beach-boat",
+      "image3": "https://res.cloudinary.com/demo/image/upload/v1/samples/food/spices",
+      "team": [
+        {
+          "role": "Client",
+          "names": [
+            "Google"
+          ]
+        },
+        {
+          "role": "Creative Director",
+          "names": [
+            "Miki Yaron"
+          ]
+        },
+        {
+          "role": "Design",
+          "names": [
+            "Miki Yaron",
+            "Adam Gault"
+          ]
+        },
+        {
+          "role": "Animation",
+          "names": [
+            "Ted Kotsaftis",
+            "Mike Russo"
+          ]
+        }
+      ],
+      "color": "#4285f4",
+      "order": 1,
+      "published": true,
+      "createdAt": "2024-01-01T00:00:00.000Z",
+      "updatedAt": "2025-12-24T21:33:46.280Z"
+    },
+    {
+      "id": "2",
+      "slug": "motion-design-nike",
+      "title": "Nike Motion Campaign",
+      "client": "Nike",
+      "description": "Dynamic motion graphics and animation for Nike's seasonal campaign, featuring bold typography and energetic transitions.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1/samples/landscapes/architecture-signs",
+      "image1": "https://res.cloudinary.com/demo/image/upload/v1/samples/animals/reindeer",
+      "image2": "https://res.cloudinary.com/demo/image/upload/v1/samples/people/smiling-man",
+      "image3": "https://res.cloudinary.com/demo/image/upload/v1/samples/ecommerce/shoes",
+      "team": [
+        {
+          "role": "Client",
+          "names": [
+            "Nike"
+          ]
+        },
+        {
+          "role": "Directed by",
+          "names": [
+            "Block & Tackle"
+          ]
+        },
+        {
+          "role": "Creative Director",
+          "names": [
+            "Miki Yaron"
+          ]
+        },
+        {
+          "role": "Lead Design",
+          "names": [
+            "Mike Russo"
+          ]
+        },
+        {
+          "role": "Animation",
+          "names": [
+            "Ted Kotsaftis",
+            "Alex Winakor"
+          ]
+        }
+      ],
+      "color": "#ff6b35",
+      "order": 2,
+      "published": true,
+      "createdAt": "2024-01-02T00:00:00.000Z",
+      "updatedAt": "2025-12-24T21:33:46.280Z"
+    },
+    {
+      "id": "3",
+      "slug": "yellowstone",
+      "title": "Yellowstone",
+      "client": "Paramount Networks",
+      "description": "Main title sequence and brand package for Paramount's hit series Yellowstone, capturing the raw beauty of the American West.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1/samples/animals/three-dogs",
+      "image1": "https://res.cloudinary.com/demo/image/upload/v1/samples/landscapes/girl-urban-view",
+      "image2": "https://res.cloudinary.com/demo/image/upload/v1/samples/food/dessert",
+      "image3": "https://res.cloudinary.com/demo/image/upload/v1/samples/animals/cat",
+      "team": [
+        {
+          "role": "Client",
+          "names": [
+            "Paramount Networks"
+          ]
+        },
+        {
+          "role": "Creative Director",
+          "names": [
+            "Miki Yaron",
+            "Adam Gault"
+          ]
+        },
+        {
+          "role": "Producer",
+          "names": [
+            "Megan Anderson"
+          ]
+        },
+        {
+          "role": "Design",
+          "names": [
+            "Mike Russo",
+            "Jess Hutchison"
+          ]
+        },
+        {
+          "role": "Animation",
+          "names": [
+            "Ted Kotsaftis",
+            "David Jouppi"
+          ]
+        }
+      ],
+      "color": "#c4a35a",
+      "order": 3,
+      "published": true,
+      "createdAt": "2024-01-03T00:00:00.000Z",
+      "updatedAt": "2025-12-24T21:33:46.280Z"
+    },
+    {
+      "id": "4",
+      "slug": "fx-networks-rebrand",
+      "title": "FX Networks Rebrand",
+      "client": "FX Networks",
+      "description": "Complete visual rebrand for FX Networks, including logo animation, show packaging, and broadcast design.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1/samples/people/kitchen-bar",
+      "image1": "https://res.cloudinary.com/demo/image/upload/v1/samples/ecommerce/leather-bag-gray",
+      "image2": "https://res.cloudinary.com/demo/image/upload/v1/samples/landscapes/beach-boat",
+      "image3": "https://res.cloudinary.com/demo/image/upload/v1/samples/food/fish-vegetables",
+      "team": [
+        {
+          "role": "Client",
+          "names": [
+            "FX Networks"
+          ]
+        },
+        {
+          "role": "Creative Director",
+          "names": [
+            "Miki Yaron"
+          ]
+        },
+        {
+          "role": "Design",
+          "names": [
+            "Adam Gault",
+            "Jess Hutchison"
+          ]
+        },
+        {
+          "role": "Animation",
+          "names": [
+            "Mike Russo",
+            "Ted Kotsaftis"
+          ]
+        }
+      ],
+      "color": "#ffffff",
+      "order": 4,
+      "published": true,
+      "createdAt": "2024-01-04T00:00:00.000Z",
+      "updatedAt": "2025-12-24T21:33:46.281Z"
+    },
+    {
+      "id": "5",
+      "slug": "pinterest-campaign",
+      "title": "Pinterest Creative",
+      "client": "Pinterest",
+      "description": "Creative direction and motion design for Pinterest's global marketing campaign.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1/samples/imagecon-group",
+      "image1": "https://res.cloudinary.com/demo/image/upload/v1/samples/bike",
+      "image2": "https://res.cloudinary.com/demo/image/upload/v1/samples/sheep",
+      "image3": "https://res.cloudinary.com/demo/image/upload/v1/samples/cloudinary-group",
+      "team": [
+        {
+          "role": "Client",
+          "names": [
+            "Pinterest"
+          ]
+        },
+        {
+          "role": "Creative Director",
+          "names": [
+            "Miki Yaron"
+          ]
+        },
+        {
+          "role": "Producer",
+          "names": [
+            "Megan Anderson"
+          ]
+        },
+        {
+          "role": "Design",
+          "names": [
+            "Mike Russo"
+          ]
+        },
+        {
+          "role": "Animation",
+          "names": [
+            "Alex Winakor",
+            "Kate Costello"
+          ]
+        }
+      ],
+      "color": "#e60023",
+      "order": 5,
+      "published": true,
+      "createdAt": "2024-01-05T00:00:00.000Z",
+      "updatedAt": "2025-12-24T21:33:46.281Z"
+    },
+    {
+      "id": "6",
+      "slug": "apple-product-launch",
+      "title": "Apple Product Launch",
+      "client": "Apple",
+      "description": "Product launch visuals and motion graphics for Apple's keynote presentation.",
+      "videoUrl": "https://www.youtube.com/embed/dQw4w9WgXcQ",
+      "thumbnail": "https://res.cloudinary.com/demo/image/upload/v1/samples/two-ladies",
+      "image1": "https://res.cloudinary.com/demo/image/upload/v1/samples/landscapes/nature-mountains",
+      "image2": "https://res.cloudinary.com/demo/image/upload/v1/samples/animals/kitten-playing",
+      "image3": "https://res.cloudinary.com/demo/image/upload/v1/samples/ecommerce/car-interior-design",
+      "team": [
+        {
+          "role": "Client",
+          "names": [
+            "Apple"
+          ]
+        },
+        {
+          "role": "Creative Director",
+          "names": [
+            "Miki Yaron"
+          ]
+        },
+        {
+          "role": "Lead Design",
+          "names": [
+            "Adam Gault"
+          ]
+        },
+        {
+          "role": "Animation",
+          "names": [
+            "Mike Russo",
+            "Ted Kotsaftis",
+            "David Jouppi"
+          ]
+        }
+      ],
+      "color": "#a3aaae",
+      "order": 6,
+      "published": true,
+      "createdAt": "2024-01-06T00:00:00.000Z",
+      "updatedAt": "2025-12-24T21:33:46.281Z"
+    },
+    {
+      "id": "mjkh2yixvpehm54ofo",
+      "slug": "uefa",
+      "title": "UEFA",
+      "client": "Bank Leumi",
+      "description": "I directed and edited 36 unique sponsorship segments for Bank Leumi, set to be featured during the UEFA Euro 2024 football broadcasts. Some segments are general and suitable for all matches, while others are tailored to specific games with custom jokes. These commercials are designed for high exposure to the Israeli audience, who will see one of the segments during every commercial break.",
+      "videoUrl": "https://vimeo.com/963046865?fl=pl&fe=vl",
+      "thumbnail": "https://res.cloudinary.com/dw91hnsi5/image/upload/v1766608354/portfolio/oi7q7tt5fxs0ibleul2q.gif",
+      "image1": "https://res.cloudinary.com/dw91hnsi5/image/upload/v1766608475/portfolio/cyvqc3ws98npsjrhvmq0.avif",
+      "image2": "https://res.cloudinary.com/dw91hnsi5/image/upload/v1766608480/portfolio/ltubjpyb6mpunxoj2jfp.avif",
+      "image3": "https://res.cloudinary.com/dw91hnsi5/image/upload/v1766608485/portfolio/aozslwmlu2rvzeapuedy.avif",
+      "team": [
+        {
+          "role": "Director & Editor",
+          "names": [
+            "Miki Yaron"
+          ]
+        },
+        {
+          "role": "Producer",
+          "names": [
+            "Shoshi & Udi Productions"
+          ]
+        },
+        {
+          "role": "Camera",
+          "names": [
+            "Alon Lutsky",
+            "Demián Tzatzkin"
+          ]
+        },
+        {
+          "role": "Visual Effects",
+          "names": [
+            "Screen TLV"
+          ]
+        },
+        {
+          "role": "Ad Agency",
+          "names": [
+            "Mccann TLV"
+          ]
+        }
+      ],
+      "color": "#367cf8",
+      "order": 0,
+      "published": true,
+      "createdAt": "2025-12-24T20:34:49.545Z",
+      "updatedAt": "2025-12-24T21:39:47.691Z"
+    }
+  ]
+}
